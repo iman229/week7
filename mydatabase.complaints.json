@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "684bb49f2b95e192ad3d6310"
+  },
+  "cust_id": {
+    "$oid": "684bb0fd2b95e192ad3d630a"
+  },
+  "description": "Driver not drive properly",
+  "status": "resolved"
+},
+{
+  "_id": {
+    "$oid": "684bbcef2b95e192ad3d631a"
+  },
+  "cust_id": {
+    "$oid": "684bbb222b95e192ad3d6317"
+  },
+  "description": "Car dirty",
+  "status": "resolved"
+}]

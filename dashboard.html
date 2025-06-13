@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complaints Dashboard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f6f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .dashboard-container {
+            max-width: 1200px;
+            margin: auto;
+            overflow-x: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #e9f5ff;
+        }
+
+        .status-resolved {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Complaints Dashboard</h1>
+    <div class="dashboard-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Complaint ID</th>
+                    <th>Customer ID</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                    <th>Handled At (UTC)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows -->
+                <tr>
+                    <td>1</td>
+                    <td>684bace72b95e192ad3d6309</td>
+                    <td>684ba7f0fed5dd3169b54d96</td>
+                    <td>Driver took wrong route</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T04:46:27.682Z</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>684bb49f2b95e192ad3d6310</td>
+                    <td>684bb0fd2b95e192ad3d630a</td>
+                    <td>Driver not drive properly</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T05:20:17.191Z</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>684bb9e42b95e192ad3d6316</td>
+                    <td>684bb6632b95e192ad3d6311</td>
+                    <td>Car is smelly</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T05:42:04.189Z</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>684bbcef2b95e192ad3d631a</td>
+                    <td>684bbb222b95e192ad3d6317</td>
+                    <td>Car dirty</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T05:57:07.100Z</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>684bc0212b95e192ad3d631e</td>
+                    <td>684bbe7e2b95e192ad3d631b</td>
+                    <td>the fare is very high</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T06:11:48.663Z</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>684bcfef2b95e192ad3d6326</td>
+                    <td>684bcbbe2b95e192ad3d631f</td>
+                    <td>pricey</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T13:18:16.292Z</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>684bd2282b95e192ad3d6328</td>
+                    <td>684bcbbe2b95e192ad3d631f</td>
+                    <td>driver not friendly</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T13:18:33.490Z</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>684bd5512b95e192ad3d632c</td>
+                    <td>684bd35c2b95e192ad3d6329</td>
+                    <td>driver not friendly</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T13:16:57.655Z</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>684bd702b95e192ad3d6330</td>
+                    <td>684bd61e2b95e192ad3d632d</td>
+                    <td>driver arrive late</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T13:17:46.197Z</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>684c22e13bf3e5300cc92c1d</td>
+                    <td>684c20db3bf3e5300cc92c18</td>
+                    <td>Driver is too loud</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T13:09:59.712Z</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>684c241d3bf3e5300cc92c1e</td>
+                    <td>684bd35c2b95e192ad3d6329</td>
+                    <td>Driver is talking rudely</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T13:15:00.510Z</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>684c256c3bf3e5300cc92c1f</td>
+                    <td>684bd61e2b95e192ad3d632d</td>
+                    <td>Driver is half drunk</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T13:20:32.331Z</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>684c25d63bf3e5300cc92c20</td>
+                    <td>684ba7f0fed5dd3169b54d96</td>
+                    <td>Driver is talking too much</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T13:21:50.825Z</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>684c26223bf3e5300cc92c21</td>
+                    <td>684bb0fd2b95e192ad3d630a</td>
+                    <td>Driver is too slow</td>
+                    <td class="status-resolved">resolved</td>
+                    <td>2025-06-13T13:23:13.713Z</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
