@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo 'No tests defined - skipping.'"
   },
+  {
   "keywords": [],
   "author": "",
   "license": "ISC",
